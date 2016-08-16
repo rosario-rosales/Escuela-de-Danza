@@ -1,0 +1,87 @@
+
+*{
+	font-family: "Latolight";
+}
+.menu-encabezado{
+	padding:20px;
+}
+.list-menu  li{
+	display: inline-block;
+	margin: 20px 50px;
+	font-family: "Latolight";
+}
+.list-menu a{
+	text-decoration: none;
+	color: #09111C;
+}
+
+.menu-encabezado h1{
+	font-family: "Latolight";
+}
+.menu-encabezado h1 a{
+	color: #09111C;
+}
+
+/* EMPIEZA CONTACTO*/
+.contacto{
+	padding: 20px;
+	background-image: url(../img/shoes_!.jpg);
+	background-size: contain;
+	background-position: 370px 5px;
+	background-repeat: no-repeat;
+	padding: 20px 10px;
+}
+.contacto h2{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.contacto span{
+	position: absolute;
+	margin: 10px;
+	font-size: 20px;
+}
+
+input{
+	border:none;
+	border: 1px solid #000;
+	width: 400px;
+	height: 40px;
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+	padding-left: 35px;
+	margin-bottom: 10px;
+
+}
+textarea{
+	border: none;
+	border: 1px solid #000;
+	width: 400px;
+	height: 100px;
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+	margin-bottom: 10px;
+	padding-left: 35px;
+}
+
+.enviar{
+	width: 400px;
+	height: 50px;
+	background-color: #09111C;
+	color: white;
+	margin-bottom: 20px;
+}	
+
+
+/*termina contacto*/	
+
+.footer{
+	background-color: #09111C;
+	height: 50px;
+	
+}
+.footer .p-footer{
+	padding: 0;
+	margin: 5px;
+	font-size: 10px;
+
+}

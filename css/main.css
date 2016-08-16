@@ -1,0 +1,190 @@
+/*{outline: 1px solid red;}*/
+body{
+	font-family: "Latolight";
+}
+/*COMIENZA EL SLIDER*/
+.slider{
+	width: 103%;
+	height: 390px;
+	overflow: hidden;
+}
+.slider .list-slider{
+	display: flex;
+	width: 400%;
+
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+
+}
+.slider li{
+	list-style: none;
+	width: 100%;
+}
+.slider img{
+	width: 100%;
+}
+.slider h1{
+	font-size: 50px;
+	margin-left: 50px;
+	margin-top: 30px;
+	color: gray;
+}
+.slider p{
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 190px;
+	font-size: 13px;
+	color: white;
+}
+.slider .boton{
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	background-color: #09111C;
+	color: white;
+	border: #09111C;	
+}
+.slider .bailarines{
+	position: relative;
+	top: -405px;}
+
+/*COMIENZA EFECTOS DE  SLIDER*/
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+/*COMIENZA EL SLIDER*/
+
+.instructores .pictures1{
+	height: 250px;
+	background-image: url(../img/instructor_4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.instructores .pictures2{
+	height: 250px;
+	background-image: url(../img/profesor_9.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px 0px;
+}
+.instructores .boton-instructores{
+	background-color: #09111C;
+	border: #09111C;
+	padding: 20px;
+	width: 400px;
+	position: relative;
+    top: 194px;
+    left: 280px;
+}
+.frases{
+	background-image: url(../img/textura_2.jpg);
+	padding: 50px 160px;
+}
+.frases p{
+	font-size: 22px;
+}
+.frases img{
+	width: 100px;
+	margin-top: 10px;
+}
+.frases button{
+	background-color: #09111C;
+	width: 250px;
+	padding: 20px 10px;
+	display: block;
+	margin-left: 200px;
+}
+.instructores img{
+	background-image: url(../img/instructor_4.png);
+	width: 478px;
+	height: 
+}
+.frases-2{
+	background-image: url(../img/textura_2.jpg);
+	padding: 60px 100px;
+}
+.frases-2{
+	font-size: 34px;
+	 
+}
+.direccion{
+	background-color: #09111C;
+	padding: 40px; 
+}
+.direccion p{
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+.list-direcciones li{
+	list-style: none;
+}
+
+/*CONTACTO*/
+.contacto{
+	padding: 20px;
+	background-image: url(../img/shoes_!.jpg);
+	background-size: contain;
+	background-position: 370px 5px;
+	background-repeat: no-repeat;
+	padding: 20px 10px;
+}
+.contacto h2{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.contacto span{
+	position: absolute;
+	margin: 10px;
+	font-size: 20px;
+}
+
+input{
+	border:none;
+	border: 1px solid #000;
+	width: 400px;
+	height: 40px;
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+	padding-left: 35px;
+	margin-bottom: 10px;
+
+}
+textarea{
+	border: none;
+	border: 1px solid #000;
+	width: 400px;
+	height: 100px;
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+	margin-bottom: 10px;
+	padding-left: 35px;
+}
+}
+
+.enviar{
+	width: 400px;
+	height: 50px;
+	background-color: #09111C;
+	color: white;
+	margin-bottom: 20px;
+}	
+.footer{
+	background-color: #09111C;
+	height: 50px;
+}
+.footer .p-footer{
+	padding: 0;
+	margin: 0;
+}

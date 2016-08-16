@@ -1,0 +1,48 @@
+
+body{
+	font-family: "Latolight";
+}
+h1{
+	text-align: center;
+}
+.section-blog{
+	background-image: url(../img/textura_2.jpg);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.lista{
+	list-style: none;
+}
+.lista li{
+	display: block;
+	background:rgba(156, 152, 209, 0.2);
+	margin: 40px;
+	height: 200px;
+}
+.lista img{
+	height:100%;
+	width: 200px;
+}
+.lista h3,h6,.p,.x{
+	position: relative;
+	bottom: 200px;
+	left: 200px;
+	margin: 10px 205px 0 10px;
+	text-align: justify;
+}
+.lista .x{
+	text-align: center;
+}
+.lista .x{
+	width: 150px;
+	height: 30px;
+	background:#000066;
+	border-radius: 10px;
+	color:#fff;
+}
+
+.lista .x:hover{
+	color:black;
+	background: #fff;
+}
+

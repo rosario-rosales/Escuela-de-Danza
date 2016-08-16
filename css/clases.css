@@ -1,0 +1,41 @@
+body{
+	font-family: "Latolight";
+}
+h1{
+	text-align: center;
+	padding: 20px;
+}
+.galeria{
+	list-style: none;
+	padding-top: 10px;
+}
+.galeria li{
+	height: 400px;
+	width: 295px;
+	display: inline-block;
+	margin: 6px;
+}
+.galeria img{
+	height: 100%;
+	width: 100%;
+}
+.galeria .interior{
+	width: 250px;
+	text-align: center;
+	background:rgba(89, 87, 87, 0.3);
+	color:#FFF;
+	position: relative;
+	bottom: 250px;
+	left: 20px;
+	padding:20px;
+}
+.galeria .interior:hover{
+	border-radius: 10px;
+	color:#fff;
+	border:2px solid #000066;
+	background:#000066;
+}
+#clases{
+	background-image: url(../img/textura_2.jpg);
+}
+
